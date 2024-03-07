@@ -80,3 +80,6 @@ class XMLParagraphExtractor:
                 
             except Exception as e:
                 print(f'Error processing {fname}: {e}')
+
+
+XMLParagraphExtractor().parse_transkribus(input("Enter filename or path: "))
