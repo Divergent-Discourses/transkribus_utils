@@ -10,7 +10,7 @@ The program recursively searches input directories for .xml files, so clean file
 
 ### Using the Paragraph Extractor
 
-After downloading the `.py` file, navigate to its home directory with the command line and call it with `python paragraph_extractor.py`. The user will then be prompted to input the filename, directory name, or path to file/directory. The corresponding .csv file will be output in the same directory as the final input object.  
+After downloading the `.py` file, navigate to its containing directory with the command line and call it with `python paragraph_extractor.py`. The user will then be prompted to input the filename, directory name, or path to file/directory. The corresponding .csv file will be output in the same directory as the final input object.  
 
 
 
