@@ -1,8 +1,8 @@
 # Description 
 
-This repository holds utilities for parsing and extracting useful data from [Transkribus](transkribus.ai) XML outputs, such as a utility that reconciles the metadata of Trankribus output to the equivalent data held in the relevant library catalogue. 
+This repository holds utilities for parsing and extracting useful data from [Transkribus](transkribus.ai) PageXML outputs, such a utility for identifying text regions (Paragraph Extractor), and a utility to reconcile Trankribus output metadata with the equivalent data in relevant library catalogues (coming shortly). 
 
-**Paragraph Extractor** is a utility that accepts Transkribus PageXML as input and then interprets the text regions on each page (such as headers, titles, blocks of text, etc.) which we term "paragrpahs". It then returns the raw text of each text region (paragraph) along with its metadata. Note that it **reads PageXML, not AltoXML**. 
+**Paragraph Extractor** is a utility that accepts Transkribus PageXML as input and then interprets the text regions on each page/image (such as headers, titles, blocks of text, etc.), which we term "paragrpahs". It then returns the raw text of each text region (paragraph) along with its metadata. Note that it **reads PageXML, not AltoXML**. 
 
 ## Paragraph Extractor
 
