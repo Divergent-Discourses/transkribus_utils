@@ -2,7 +2,9 @@
 
 This repository holds utilities for parsing and extracting useful data from [Transkribus](transkribus.ai) PageXML outputs, such as a utility for identifying text regions (Paragraph Extractor), and a utility to reconcile Trankribus output metadata with the equivalent data in relevant library catalogues (coming shortly). 
 
-**Paragraph Extractor** is a utility that accepts Transkribus PageXML as input and then interprets the text regions on each page/image (such as headers, titles, blocks of text, etc.), which we term "paragrpahs". It then returns the raw text of each text region (paragraph) along with its metadata. Note that it **reads PageXML, not AltoXML**. 
+**Paragraph Extractor** is a utility that accepts Transkribus PageXML as input and then interprets the text regions on each page/image (such as headers, titles, blocks of text, etc.), which we term "paragraphs". It then returns the raw text of each text region (paragraph) along with its metadata. Note that it **reads PageXML, not AltoXML**. 
+
+**Paragraph Extractor** was developed by James Engels of SOAS University of London for the Divergent Discourses project. The project is a joint study involving SOAS University of London and Leipzig University, funded by the AHRC in the UK and the DFG in Germany. Please acknowledge the project in any use of these materials. Copyright for the project resides with the two univerisities. 
 
 ## Paragraph Extractor
 
